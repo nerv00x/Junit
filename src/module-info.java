@@ -6,6 +6,7 @@
  *
  */
 module Calculadora {
-	requires org.junit.jupiter.api;
-	
+	requires junit;
+	requires jdk.httpserver;
+	requires java.base;
 }
